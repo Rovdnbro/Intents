@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_margin"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin"
+    tools:context="hogent.intents.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.70"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose"
+                android:id="@+id/inputTextView"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/googleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google" />
+
+            <Button
+                android:id="@+id/websiteButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website" />
+
+            <Button
+                android:id="@+id/contactsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contacts" />
+
+            <Button
+                android:id="@+id/dialerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dialer" />
+
+            <Button
+                android:id="@+id/speechButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voice Command" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"></RelativeLayout>
+
+</LinearLayout>
